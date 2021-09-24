@@ -1,4 +1,4 @@
-# QProcessReadStdOut
+# QProcessReadFFmpegOutput
 
 qt 启动 ffmpeg 进程，并且读取ffmpeg的转换进度。
 从ffmpeg的输出中提取进度，要点是在编码前捕获 Duration 值，并在编码期间捕获 time=... 值。
